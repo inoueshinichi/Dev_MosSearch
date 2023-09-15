@@ -7,9 +7,8 @@
 
 ## 目的
 + モバイル開発の実務経験を積む
-+ 群生データ収集アプリの開発
 + モバイルアプリのリリース経験を積む
-+ モバイルに対するDLモデルの実装経験を積む
++ モバイルに対するDLモデルの実装経験を積む(Pytorch -> Tensorflow -> Tensorflow Lite -> iOS/Android)
 + 苔分類に対するDLの限界値を確認したい(特にCNNの局所的テクスチャ特徴量とTransformerの大域的形状特徴量の違い)
 
 ## ロードマップ
@@ -50,10 +49,10 @@
 + Dart/Flutter
 + Swift/Objective-C
 + Java/Kotlin
-+ Firebase
++ Firebase(Auth, Store, ...)
 + Auth(認証系)
-+ DL(分類, セグメンテーション)
++ DLモデルアーキテクチャ(分類, セグメンテーション)
 + Tensorflow Lite
 + Pytorch
 + ONNX (フレームワーク間のモデル形式の変換に使用)
-+ 
++ AWS 
