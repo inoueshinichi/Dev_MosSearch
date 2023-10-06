@@ -11,6 +11,7 @@ services:
       - moss_net
     volumes:
       - ./app_gallery/src:/moss_app_gallery
+    tty: true
     stop_signal: SIGINT
     # restart: unless-stopped
     environment:
