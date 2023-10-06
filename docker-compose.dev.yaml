@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  app_gallery:
+    build:
+      context: ./app_gallery
+      dockerfile: Dockerfile
+    image: ${DHUB_USER}/moss_app_gallery:${IMG_VER}
+    container_name: moss_app_gallery-con
+    networks:
+      - moss_net
+    volumes:
+      - ./app_gallery/src:/moss_app_gallery
+    stop_signal: SIGINT
+    # restart: unless-stopped
+    environment:
+      MY_ENV_TEST: my_env_test
+
+
+networks:
+  moss_net:
+    driver: bridge
